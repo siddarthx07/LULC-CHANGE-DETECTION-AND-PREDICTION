@@ -87,18 +87,7 @@ Train ML model (e.g., Random Forest) to learn change patterns
 
 Predict future raster based on learned transitions
 
-🛠️ Tools & Technologies
-Python
 
-GeoPandas
-
-Rasterio
-
-Scikit-learn
-
-Matplotlib / Seaborn
-
-QGIS (for validation)
 
 📈 Evaluation Metrics
 Confusion Matrix
