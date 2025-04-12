@@ -12,6 +12,46 @@ This project focuses on **Land Use and Land Cover (LULC)** change detection and 
 
 ---
 
+
+# 🛰️ LULC Classification Dataset (Telangana, India: 2017–2022)
+
+## 📂 Dataset Overview
+
+This dataset consists of Land Use Land Cover (LULC) classification maps in GeoTIFF (.tif) format for the state of Telangana, India, spanning the years 2017 to 2022. The maps were generated using supervised classification techniques in Google Earth Engine (GEE) and can be used for change detection, environmental monitoring, and land resource management.
+
+## 📁 Files Available
+
+- `2017_tel.tif`
+- `2018_tel.tif`
+- `2019_tel.tif`
+- `2020_tel.tif`
+- `2021_tel.tif`
+- `2022_tel.tif`
+
+Each file contains a raster image with pixel values representing LULC class labels.
+
+## 🏷️ LULC Classes and Color Legend
+
+| Class Name           | Value | Color Code |
+|----------------------|-------|------------|
+| Water                | 1     | `#1a5bab`  |
+| Trees                | 2     | `#358221`  |
+| Flooded Vegetation   | 4     | `#87d19e`  |
+| Crops                | 5     | `#f4a261`  |
+| Built Area           | 7     | `#ed022a`  |
+| Bare Ground          | 8     | `#e9dc9a`  |
+| Snow/Ice             | 9     | `#f2faff`  |
+| Clouds               | 10    | `#c8c8c8`  |
+| Rangeland            | 11    | `#cfba77`  |
+
+## 📥 Download Link
+
+Access the GeoTIFF files from this Google Drive folder:  
+[Google Drive Folder](https://drive.google.com/drive/folders/1hlk53TQhYs-tJCnpjAUMDPuJ7vwSurZR?usp=sharing)
+
+
+
+
 ## 🧠 Key Features
 
 - 📊 **Change Detection** using NDVI and classification techniques
