@@ -36,15 +36,8 @@ cd LULC-CHANGE-DETECTION-AND-PREDICTION
 python -m venv env
 source env/bin/activate  # For Windows: env\Scripts\activate
 
-3. Install Dependencies
-pip install -r requirements.txt
-
-If requirements.txt is missing, manually install core packages:
-pip install numpy pandas matplotlib rasterio scikit-learn geopandas seaborn
 
 
-🖼️ Sample Outputs
-<table> <tr> <td><img src="docs/lulc_change_map.png" alt="Change Map" width="300"/></td> <td><img src="docs/lulc_prediction.png" alt="Prediction" width="300"/></td> </tr> </table>
 🔮 LULC Prediction Workflow
 Load historical LULC classified rasters
 
