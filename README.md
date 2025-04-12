@@ -25,21 +25,7 @@ This project focuses on **Land Use and Land Cover (LULC)** change detection and 
 ## 📂 Project Structure
 
 ```bash
-LULC-CHANGE-DETECTION-AND-PREDICTION/
-├── data/
-│   ├── raw_satellite_images/
-│   └── preprocessed/
-├── notebooks/
-│   ├── 01_preprocessing.ipynb
-│   ├── 02_change_detection.ipynb
-│   ├── 03_prediction_model.ipynb
-├── results/
-│   ├── lulc_maps/
-│   └── accuracy_metrics/
-├── utils/
-│   └── image_processing.py
-├── requirements.txt
-└── README.md
+
 
 ⚙️ Setup Instructions
 1. Clone the Repository
